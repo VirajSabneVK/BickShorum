@@ -13,22 +13,27 @@ public class Bike {
 		this.type = type;
 	}
 
+	// get Brand Value
 	public String getBrand() {
 		return brand;
 	}
 
+	// get Model Value
 	public String getModel() {
 		return model;
 	}
 
+	// get price
 	public double getPrice() {
 		return price;
 	}
 
+	// Get Type
 	public String getType() {
 		return type;
 	}
 
+	/*Create DisplyaDetails Method To Display Details*/
 	public void displayDetails() {
 		System.out.println("Bike Brand: " + brand);
 		System.out.println("Model: " + model);

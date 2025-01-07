@@ -2,8 +2,11 @@ package BickSell;
 
 import java.util.Scanner;
 
+// Create DriveMainClass class to perform main operation 
 public class DriveMainClass {
 	public static void main(String[] args) {
+		
+		// Create Scanner Class Object to Accept Input For User 
 		Scanner scanner = new Scanner(System.in);
 		Showroom showroom = new Showroom("SuperBikes Showroom", "Downtown");
 
@@ -12,8 +15,9 @@ public class DriveMainClass {
 		showroom.addBike(new Bike("Honda", "CBR 250R", 200000, "Sports"));
 		showroom.addBike(new Bike("Bajaj", "Pulsar 150", 100000, "Commuter"));
 
+		// Using While loop to print main menu
 		while (true) {
-			System.out.println("\n Welcome To VirajVsBick shorum :");
+			System.out.println("\n Welcome To VirajVsBick shorum ");
 			System.out.println("*******************************");
 			System.out.println("1. View Available Bikes");
 			System.out.println("2. Add a Bike to Showroom");
